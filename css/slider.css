@@ -1,0 +1,92 @@
+#slider {
+  width: 918px;
+  height: 213px;
+  overflow: hidden;
+}
+
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	display:none;
+  position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	/* position:absolute;
+	right:10px;
+	top:100px;
+  margin-left:-40px; */ /* Tweak this to center bullets */
+  
+  position: absolute;
+  z-index: 10;
+  top: 94px;
+  right: -33px;
+  width: 144px;
+  height: 43px;
+  padding: 7px 0 0 10px;
+  background: url(../images/main_rotator-right_cloud-l.png) no-repeat 0 0;
+  overflow: hidden;
+  behavior: url("js/iepngfix.htc");
+}
+.nivo-controlNav a {
+	position:relative;
+	z-index:11;
+	cursor:pointer;
+	
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../images/slider/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+	behavior: url("js/iepngfix.htc");
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+	background-position:0 -22px;
+}
