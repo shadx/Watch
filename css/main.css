@@ -224,7 +224,7 @@ A:hover {
 }
 #inner .left_col .left_col_navi .left_col_navi_item .left_col_navi_link {
   padding-left: 15px;
-	font: 16px/30px arial;
+	font: 14px/30px arial;
 	color: #000;
 	background: url(../images/left_col_navi_link.png) no-repeat 0 50%;
 }
@@ -445,21 +445,19 @@ A:hover {
 	height: 100px;
 	margin: 10px;
   border-top: solid 1px #9A0816;
-	overflow: hidden;
 }
 
 #footer .foot_cal {
   float: left;
-	margin: 10px 42px 0 0;
-	width: px;
+	margin: 10px 0 9px 0;
 	font: 12px arial;
 	color: #000;
 }
 #footer .foot_cal .txt_1 {
-  
+  overflow: hidden;
 }
 #footer .foot_cal .txt_1 .txt_2 {
-  font: 30px arial;
+  font: 28px arial;
 	color: #000;
 	margin: 0 20px 0 0;
 	float: left;
@@ -471,10 +469,11 @@ A:hover {
 }
 
 #footer .foot_cal .work {
-	margin: 10px 0 0 20px;
+  float: left ;
+	margin: 10px 0 0 6px;
 	font: 12px/20px arial;
 	color: #000;
-	width: 180px;
+	width: 170px;
 	text-align: center;
 }
 #footer .foot_cal .work SPAN {
@@ -483,20 +482,101 @@ A:hover {
 }
 
 #footer .foot_cal .foot_reit {
-  float: ;
-  margin: 5px 31px 0 0;
+  float: left;
+  margin: 5px 0 0 32px;
 	overflow: hidden;
-	background: red;
 }
 #footer .foot_cal .foot_reit .foot_nagrad {
   float: left;
-	width: 99px;
-	height: 50px;
-  background: url(../images/footer_nagrada.png) no-repeat 0 0;
 }
 #footer .foot_cal .foot_reit .foot_expert {
-  margin: 10px 0 0 110px;
-	width: 83px;
-	height: 42px;
-  background: url(../images/footer_expert.png) no-repeat 0 0;
+  float: left;
+  margin: 3px 0 0 22px;
 }
+#footer .foot_right {
+  float: right;
+  width: 550px;
+  height: 30px;
+  margin-top: 10px;
+  
+}
+#footer .foot_right UL {
+  overflow: hidden;
+  float: right;
+  padding-left: 70px;
+  margin-bottom: 16px;
+}
+#footer .foot_right LI {
+  float: left;
+  margin-left: 11px;
+  font: 12px arial;
+  color: #B12020;
+}
+#footer .foot_right LI A {
+  color: black;
+  text-decoration: underline;
+  padding-right: 12px;
+}
+#footer .foot_right LI .last {
+  padding-right: 0;
+}
+#footer .foot_right LI A:hover {
+  text-decoration: none;
+}
+#footer .foot_right .created_block {
+  overflow: hidden;
+  float: right;
+  text-align: right;
+}
+#footer .foot_right .created_block .created {
+  margin-bottom: 1px;
+}
+#footer .foot_right .created_block .copy {
+  font: bold 11px arial;
+  color: #616161;
+}
+#footer .foot_right .created_block .copy A {
+  margin-left: 3px;
+  font: bold 11px arial;
+  color: #A70202;
+} 
+#inner .center_col {
+  padding: 22px 20px 0 0;
+  margin: 0 208px 0 219px;
+}
+#inner .center_col .head_center_col {
+  margin-bottom: 13px;
+  font: bold italic 16px arial;
+  color: black;
+}
+#inner .center_col .head_center_col A {
+  color: black;
+  text-decoration: underline;
+}
+#inner .center_col .head_center_col A:hover {
+  text-decoration: none;
+}
+#inner .center_col P {
+  padding-bottom: 15px;
+  margin: 0;
+  font: bold 11px/15px arial;
+  color: black;
+}
+#inner .center_col .last {
+  padding-bottom: 57px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
