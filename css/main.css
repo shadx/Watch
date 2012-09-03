@@ -215,18 +215,19 @@ A:hover {
 
 #inner .left_col {
   float: left;
-	width: 212px;
+	width: 218px;
 	overflow: hidden;
 }
 #inner .left_col .left_col_navi {
-  margin: 30px 30px 10px 25px;
+  margin: 30px 30px 10px 20px;
 }
 #inner .left_col .left_col_navi .left_col_navi_item {
+  padding-left: 15px;
   background: url(../images/left_col_navi_line.png) repeat-x 0 100%;
 }
 #inner .left_col .left_col_navi .left_col_navi_item .left_col_navi_link {
   padding-left: 15px;
-	font: 14px/30px arial;
+	font:bold 14px/34px arial;
 	color: #000;
 	background: url(../images/left_col_navi_link.png) no-repeat 0 50%;
 }
@@ -258,20 +259,25 @@ A:hover {
 }
 #inner .left_col .filter .block .sum {
   width: 42px;
+	text-align: right;
+	font:	11px arial;
+	color: #000;
+	border: solid 1px #BCBCBD;
 }
 #inner .left_col .filter .block .but {
-  width: 72px;
-  height: 18px;
+	width: 72px;
+	height: 18px;
   border: 1px solid #B4B3B3;
   border-radius: 2px;
   margin: 10px 0 10px 50px;
   background: url(../images/bg_but.png) repeat-x 0 0;
   font: 13px tahoma;
   color: black;
+	cursor: pointer;
 }
 
 #inner .left_col .brend {
-  font: italic 17px arial;
+  font:bold italic 16px arial;
 	color: #000;
 	margin-left: 20px;
 	padding: 0 0 20px 20px;
@@ -329,7 +335,7 @@ A:hover {
 }
 #inner .right_col .sel_head SPAN {
 	display: block;
-  padding-left: 35px;
+  padding-left: 45px;
   background: url(../images/pointer_down.png) no-repeat 16px 15px;
 }
 #inner .right_col .sel_inner {
@@ -373,14 +379,14 @@ A:hover {
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text .sel_cost_old {
   float: left;
 	margin-left: 10px;
-	font: 15px arial;
+	font:bold 15px arial;
 	color: #000;
 	text-decoration: line-through;
 }
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text .sel_cost_new {
   float: right;
 	margin-right: 10px;
-	font: bold 16px arial;
+	font:bold 16px arial;
 	color: #f00;
 }
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text .bask {
@@ -418,52 +424,40 @@ A:hover {
 }
 
 #inner .right_col .interest {
-  margin: 10px 0 10px 0;
-	
-	width: 185px;
-	height: 81px;
+  display: block;
+	float: right;
+	margin: 10px 0 10px 0;
+	padding: 22px 0 0 75px;
+	width: 110px;
+	height: 60px;
 	font: 14px arial;
 	color: #A70202;
 	text-align: center;
 	background: url(../images/interest.png) no-repeat 0 0;
 }
-#inner .right_col .interest A  {
-  display: block;
-  width: 185px;
-	height: 60px;
-  padding: 20px 0 0 30px;
-	font: 14px arial;
-	color: #A70202;
-  background: red;
-}
-#inner .right_col .interest A:hover  {
+#inner .right_col .interest:hover  {
 	text-decoration: none;
 }
 #inner .right_col .help {
+  display: block;
+	float: right;
   margin-left: 5px;
-	width: 180px;
-	height: 80px;
+	padding: 15px 0 0 50px;
+	width: 130px;
+	height: 65px;
+	font: 14px arial;
+	color: #A70202;
 	text-align: center;
 	background: url(../images/help.png) no-repeat 0 0;
 }
-#inner .right_col .help A {
-  display: block;
-  width: 185px;
-	height: 65px;
-  padding: 15px 0 0 30px;
-  font: 14px arial;
-	color: #A70202;
-  
-}
-#inner .right_col .help A:hover  {
+#inner .right_col .help:hover  {
 	text-decoration: none;
 }
+
 
 #inner .col {
   margin: 0 200px 0 20%;
 }
-
-
 
 
 #footer {
@@ -476,7 +470,7 @@ A:hover {
 #footer .foot_cal {
   float: left;
 	margin: 10px 0 9px 0;
-	font: 12px arial;
+	font: bold 11px arial;
 	color: #000;
 }
 #footer .foot_cal .txt_1 {
@@ -497,7 +491,7 @@ A:hover {
 #footer .foot_cal .work {
   float: left ;
 	margin: 10px 0 0 6px;
-	font: 12px/20px arial;
+	font: 12px/12px arial;
 	color: #000;
 	width: 170px;
 	text-align: center;
@@ -529,7 +523,7 @@ A:hover {
 #footer .foot_right UL {
   overflow: hidden;
   float: right;
-  padding-left: 70px;
+	margin-right: 10px;
   margin-bottom: 16px;
 }
 #footer .foot_right LI {
@@ -552,6 +546,7 @@ A:hover {
 #footer .foot_right .created_block {
   overflow: hidden;
   float: right;
+	margin-right: 10px;
   text-align: right;
 }
 #footer .foot_right .created_block .created {
@@ -929,7 +924,7 @@ A:hover {
 }
 .center_col_index .sel_head SPAN {
 	display: block;
-  padding-left: 35px;
+  padding-left: 45px;
   background: url(../images/pointer_down.png) no-repeat 16px 12px;
 }
 .center_col_index .sel_inner .sel_block  {
@@ -952,7 +947,7 @@ A:hover {
 .center_col_index .sel_inner .sel_block .sel_item .sel_item_foto .novelty  {
   width: 69px;
   height: 58px;
-  background: url(../images/novinka.jpg) no-repeat 0 0;
+  background: url(../images/novinka.png) no-repeat 0 0;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -981,7 +976,7 @@ A:hover {
 .center_col_index .sel_inner .sel_block .sel_item .sel_text .sel_cost_old {
   float: left;
 	margin-left: 10px;
-	font: 15px arial;
+	font:bold 15px arial;
 	color: #000;
 	text-decoration: line-through;
 }

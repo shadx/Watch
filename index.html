@@ -33,7 +33,7 @@
 		<div id="menu">
 		  <ul>
 			  <li class="menu_link"><a class="" href="#">О магазине</a></li>
-				<li class="menu_link"><a class="act" href="#">Каталог</a></li>
+				<li class="menu_link"><a class="" href="#">Каталог</a></li>
 				<li class="menu_link"><a class="" href="#">Продукция</a></li>
 				<li class="menu_link"><a class="" href="#">Оплата и доставка</a></li>
 				<li class="menu_link last"><a class="" href="#">Акции и скидки</a></li>
@@ -43,10 +43,10 @@
 			<div class="slide">
 			  <div class="slide_link">
 				  <ul>
-					  <li class="act"><a class="slide_link slide_link_1"  href="#"></a><img class="baner ban_1" src="tmp/baner_1.jpg" alt="" title="" /></li>
+						<li class=""><a class="slide_link slide_link_1" href="#"></a><img class="baner ban_1" src="tmp/baner_1.jpg" alt="" title="" /></li>
 						<li class=""><a class="slide_link slide_link_2" href="#"></a><img class="baner ban_2" src="tmp/baner_2.jpg" alt="" title="" /></li>
 						<li class=""><a class="slide_link slide_link_3" href="#"></a><img class="baner ban_3" src="tmp/baner_3.jpg" alt="" title="" /></li>
-						<li class=""><a class="slide_link slide_link_4" href="#"></a><img class="baner ban_4" src="tmp/baner_4.jpg" alt="" title="" /></li>
+					  <li class="act"><a class="slide_link slide_link_4"  href="#"></a><img class="baner ban_4" src="tmp/baner_4.jpg" alt="" title="" /></li>
 					</ul>
 				</div>
 			</div>
@@ -74,11 +74,13 @@
 				</div>
 				<div class="filter">
 				  <div class="head"><span>Подбор часов</span></div>
-					<div class="block">
-					  Пол: &nbsp;&nbsp;муж &nbsp;<input type="radio" value="option1" name="#" />&nbsp;&nbsp;&nbsp; жен &nbsp;<input type="radio" checked value="option2" name="#" /><br /><br />
-						Цена: от <input class="sum" type="text" value="9000" name="#" onblur='if(this.value=="") this.value="9000"' onfocus='if(this.value=="9000") this.value=""' /> до <input class="sum" type="text" value="110000" name="#" onblur='if(this.value=="") this.value="110000"' onfocus='if(this.value=="110000") this.value=""' />
-						<input class="but" type="submit" value="Подобрать" name="#" />
-					</div>
+					<form action="#">
+						<div class="block">
+							Пол: &nbsp;&nbsp;муж &nbsp;<input type="radio" value="option1" name="#" />&nbsp;&nbsp;&nbsp; жен &nbsp;<input type="radio" checked value="option2" name="#" /><br /><br />
+							Цена: от <input class="sum" type="text" value="9000" name="#" onblur='if(this.value=="") this.value="9000"' onfocus='if(this.value=="9000") this.value=""' /> до <input class="sum" type="text" value="110000" name="#" onblur='if(this.value=="") this.value="110000"' onfocus='if(this.value=="110000") this.value=""' />
+							<input class="but" type="submit" value="Подобрать" name="#" />
+						</div>
+					</form>
 				</div>
 				<div class="brend">
 				  Часовые бренды:
@@ -157,8 +159,8 @@
 					</div>
 					<div class="sel_block_bottom"></div>
 				</div>
-				<div class="interest"><a href="#">Интересное<br /> о часах</a></div>
-				<div class="help"><a href="#">Помощь в<br /> подборе часов</a></div>
+				<a class="interest" href="#">Интересное<br /> о часах</a>
+				<a class="help" href="#">Помощь в<br /> подборе часов</a>
 			</div>
       
 			<div class="center_col_index">
@@ -295,7 +297,7 @@
 			  </div>
         
         <div class="destination">
-          <div class="destination_head"><a href="#">Купить копии часов</a></div>
+          <div class="destination_head"><a href="#"><strong>Купить копии часов</strong></a></div>
           <div class="destination_text">
             Не секрет, что по стильным часам на запястье легко прочесть историю успеха их владельца.
             По безошибочным и сверхточным наручным механизмам сверяют минуты и часы своей
