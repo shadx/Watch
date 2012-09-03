@@ -34,34 +34,35 @@ A:hover {
 	margin-left: 10px;
 	width: 150px;
 	height: 107px;
-	background: url(../images/header_logo.png) no-repeat 0 0;
+	background: url(../images/header_logo.png) no-repeat 0 5px;
 }
 #header .contact {
   float: right;
-	margin: 5px 42px 0 0;
+	margin: 10px 42px 0 0;
 	width: px;
-	font: 12px arial;
+	font: bold 11px arial;
 	color: #000;
 }
-#header .contact P {
-  font: 30px arial;
+#header .contact .phone {
+  font: 27px/27px arial;
 	color: #000;
+  padding-top: 5px;
 	margin: 0;
 }
 #header .contact SPAN {
   float: left;
-	font: 12px/24px arial;
+	font: 12px/16px arial;
 	color: #A70202;
 }
 #header .text_1 {
   position: absolute;
-	bottom: 0px;
+	bottom: 5px;
 	right: 20px;
-	font: 16px arial;
+	font: bold 13px tahoma;
 	color: #000;
 }
 #header .text_1 SPAN {
-  font: 18px arial;
+  font: 16px tahoma;
 	color: #A70202;
 }
 #header .reit {
@@ -82,22 +83,23 @@ A:hover {
   background: url(../images/header_expert.png) no-repeat 0 0;
 }
 #menu {
-  width: ;
 	height: 54px;
   background: url(../images/menu_bg.jpg) no-repeat 0 0;
 }
 #menu UL {
-  position: relative;
+  
 }
 #menu .menu_link {
   float: left;	
-  height: 53px;
-  background: url(../images/menu_item.png) no-repeat 100% 0;
+  height: 54px;
+  background: url(../images/menu_item.png) no-repeat 100% -2px;
+  position: relative;
 }
 #menu .menu_link A {
-  font: 18px/54px arial;
+  display: block;
+  font: 16px/54px arial;
 	color: #fff;
-	padding: 16px 20px 0 20px;
+	padding: 0 20px 0 20px;
 }
 #menu .menu_link A:hover {
   text-decoration: none;
@@ -107,7 +109,7 @@ A:hover {
 }
 #menu .act {
   padding-left: 15px;
-  background: url(../images/menu_act.png) no-repeat 4px 0px;
+  background: url(../images/menu_act.png) no-repeat 4px 0;
 }
 #menu .act:hover {
   text-decoration: none;
@@ -213,7 +215,7 @@ A:hover {
 
 #inner .left_col {
   float: left;
-	width: 22%;
+	width: 212px;
 	overflow: hidden;
 }
 #inner .left_col .left_col_navi {
@@ -232,7 +234,6 @@ A:hover {
   text-decoration: none;
 	color: #A70202;
 }
-
 #inner .left_col .filter {
   width: 200px;
 	margin: 0 0 0 5px;
@@ -259,19 +260,26 @@ A:hover {
   width: 42px;
 }
 #inner .left_col .filter .block .but {
+  width: 72px;
+  height: 18px;
+  border: 1px solid #B4B3B3;
+  border-radius: 2px;
   margin: 10px 0 10px 50px;
+  background: url(../images/bg_but.png) repeat-x 0 0;
+  font: 13px tahoma;
+  color: black;
 }
 
 #inner .left_col .brend {
-  font: 18px arial;
+  font: italic 17px arial;
 	color: #000;
 	margin-left: 20px;
 	padding: 0 0 20px 20px;
-	background: url(../images/pointer_down.png) no-repeat 0 0;
+	background: url(../images/pointer_down.png) no-repeat 0 3px;
 }
 #inner .left_col .brend .brend_link {
 	display: block;
-	font: 14px arial;
+	font: 13px arial;
 	color: #000;
 	width: 157px;
 	height: 22px;
@@ -279,25 +287,25 @@ A:hover {
 	padding: 3px 0 0 10px;
 }
 #inner .left_col .brend .brend_link:hover {
-  text-decoration: none;
 }
 #inner .left_col .brend .act .brend_link {
   font: 14px arial;
 	color: #fff;
 	background: url(../images/bernd_link.png) no-repeat 0 0;
+  text-decoration: none;
 }
 
 #inner .left_col .acces {
-  font: 18px arial;
+  font: italic 17px arial;
 	color: #000;
 	white-space: nowrap;
 	margin-left: 20px;
 	padding: 0 0 20px 20px;
-	background: url(../images/pointer_down.png) no-repeat 0 0;
+	background: url(../images/pointer_down.png) no-repeat 0 3px;
 }
 #inner .left_col .acces .acces_link {
 	display: block;
-	font: 14px arial;
+	font: 13px arial;
 	color: #000;
 	width: 157px;
 	height: 22px;
@@ -308,16 +316,21 @@ A:hover {
 #inner .right_col {
   float: right;
 	width: 198px;
-	margin: 10px 10px 0 0;
+	margin: 5px 10px 0 0;
 }
 
 #inner .right_col .sel_head {
   width: 198px;
-	height: 39px;
-	font: 18px/32px arial;
+	height: 43px;
+	font: 18px/48px arial;
 	color: #fff;
-	padding: 0 0 0 35px;
-  background: url(../images/right_sel_head.png) no-repeat 0 0;
+	padding: 0 0 0 0;
+  background: url(../images/right_sel_head.png) no-repeat 0 5px;
+}
+#inner .right_col .sel_head SPAN {
+	display: block;
+  padding-left: 35px;
+  background: url(../images/pointer_down.png) no-repeat 16px 15px;
 }
 #inner .right_col .sel_inner {
   border-radius: 0 0 5px 5px;
@@ -337,8 +350,11 @@ A:hover {
   background: url(../images/sel_block.png) repeat-y 50% 0;
 }
 #inner .right_col .sel_inner .sel_block .sel_item  {
-  width: 198px;
+  width: 196px;
 	text-align: center;
+}
+#inner .right_col .sel_inner .sel_block .sel_item .first  {
+  margin-top: 5px;
 }
 #inner .right_col .sel_inner .sel_block .sel_item IMG {
   width: 163px;
@@ -347,7 +363,7 @@ A:hover {
 	border-radius: 1px;
 }
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text P {
-  font: 14px arial;
+  font: 12px/16px verdana;
 	color: #000;
 	width: 180px;
 	margin: 0 auto;
@@ -357,24 +373,24 @@ A:hover {
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text .sel_cost_old {
   float: left;
 	margin-left: 10px;
-	font: 16px arial;
+	font: 15px arial;
 	color: #000;
 	text-decoration: line-through;
 }
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text .sel_cost_new {
   float: right;
 	margin-right: 10px;
-	font: 18px arial;
+	font: bold 16px arial;
 	color: #f00;
 }
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text .bask {
   display: block;
 	float: left;
 	text-align: none;
-	width: 79px;
+	width: 77px;
 	padding-right: 0px;
 	margin-left: 20px;
-	font: 11px/25px arial;
+	font: italic 10px/25px verdana;
 	color: #000;
 	text-decoration: underline;
 	background: url(../images/sel_bask.png) no-repeat 0 50%;
@@ -382,9 +398,9 @@ A:hover {
 #inner .right_col .sel_inner .sel_block .sel_item .sel_text .arrow_left {
   display: block;
 	float: right;
-	width: 79px;
+	width: 77px;
 	margin-right: 20px;
-	font: 11px/25px arial;
+	font: italic 10px/25px verdana;
 	color: #000;
 	text-decoration: underline;
 	margin-bottom: 14px;
@@ -403,7 +419,7 @@ A:hover {
 
 #inner .right_col .interest {
   margin: 10px 0 10px 0;
-	padding: 20px 0 0 30px;
+	
 	width: 185px;
 	height: 81px;
 	font: 14px arial;
@@ -412,23 +428,32 @@ A:hover {
 	background: url(../images/interest.png) no-repeat 0 0;
 }
 #inner .right_col .interest A  {
+  display: block;
+  width: 185px;
+	height: 60px;
+  padding: 20px 0 0 30px;
 	font: 14px arial;
 	color: #A70202;
+  background: red;
 }
 #inner .right_col .interest A:hover  {
 	text-decoration: none;
 }
 #inner .right_col .help {
   margin-left: 5px;
-	padding: 15px 0 0 30px;
 	width: 180px;
 	height: 80px;
 	text-align: center;
 	background: url(../images/help.png) no-repeat 0 0;
 }
 #inner .right_col .help A {
+  display: block;
+  width: 185px;
+	height: 65px;
+  padding: 15px 0 0 30px;
   font: 14px arial;
 	color: #A70202;
+  
 }
 #inner .right_col .help A:hover  {
 	text-decoration: none;
@@ -442,9 +467,10 @@ A:hover {
 
 
 #footer {
-	height: 100px;
+	height: 113px;
 	margin: 10px;
   border-top: solid 1px #9A0816;
+  overflow: hidden;
 }
 
 #footer .foot_cal {
@@ -542,7 +568,7 @@ A:hover {
 } 
 #inner .center_col {
   padding: 22px 20px 0 0;
-  margin: 0 208px 0 219px;
+  margin: 0 208px 0 214px;
 }
 #inner .center_col .head_center_col {
   margin-bottom: 13px;
@@ -582,6 +608,7 @@ A:hover {
 }
 #inner .center_col .head_center_page2 A {
   color: black;
+  text-decoration: none;
 }
 .center_col .left_center {
   float: left;
@@ -669,6 +696,11 @@ A:hover {
   font: italic bold 10px/15px verdana;
   color: black;       
 }
+.center_col .left_center .subscription_block .sub_right A {
+  display: block;
+  color: black; 
+  text-decoration: none;      
+}
 .center_col .left_center .subscription_block .sub_right SPAN {
   color: #9A0816;         
 }
@@ -738,7 +770,8 @@ A:hover {
   background: url(../images/bg_sub_zakaz.png) repeat-x 0 0;
   font: bold 11px arial;
   color: #9C0E1B; 
-  margin: 8px 0 0 52px;    
+  margin: 8px 0 0 52px;   
+  cursor: pointer; 
 }
 .center_col .right_center {
   float: right;
@@ -851,6 +884,7 @@ A:hover {
   font: bold 11px/11px arial;
   color: #9C0E1B;
   text-align: right;
+  cursor: pointer;
 }
 .center_col .right_center .add_to_cart_block .commodity_price {
   padding-top: 12px;
@@ -877,29 +911,141 @@ A:hover {
   color: #9C0E1B;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  2-page */
+
+
+/*  index */
+.center_col_index {
+	margin: 0 208px 0 214px;
+  padding-top: 10px;
+}
+.center_col_index .sel_head {
+  width: 570px;
+	height: 42px;
+	margin-bottom: 4px;
+  background: url(../images/bg_sel_head2.png) no-repeat 0 0;
+  font: 18px/39px arial;
+	color: #fff;
+}
+.center_col_index .sel_head SPAN {
+	display: block;
+  padding-left: 35px;
+  background: url(../images/pointer_down.png) no-repeat 16px 12px;
+}
+.center_col_index .sel_inner .sel_block  {
+  width: 562px;
+  padding-left: 7px;
+  overflow: hidden;
+}
+.center_col_index .sel_inner .sel_block .sel_item  {
+  width: 178px;
+	text-align: center;
+  float: left;
+  margin-right: 11px;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_item_foto  {
+  border: solid 1px #C5C6C5;
+  border-radius: 1px;
+  margin-bottom: 11px;
+  position: relative;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_item_foto .novelty  {
+  width: 69px;
+  height: 58px;
+  background: url(../images/novinka.jpg) no-repeat 0 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+.center_col_index .sel_inner .sel_block .last_sel  {
+  margin-right: 0;
+}
+.center_col .sel_inner .sel_block .sel_item IMG {
+  width: 176px;
+	height: 189px;
+	border: solid 1px #C5C6C5;
+	border-radius: 1px;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text {
+  overflow: hidden;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text .sell_text_model {
+  font: 12px/16px verdana;
+	color: #000;
+	width: 180px;
+	margin: 31px 0 4px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text .sel_cost_old {
+  float: left;
+	margin-left: 10px;
+	font: 15px arial;
+	color: #000;
+	text-decoration: line-through;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text .sel_cost_new {
+  float: right;
+	margin-right: 10px;
+	font: bold 16px arial;
+	color: #f00;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text .bask {
+  display: block;
+	float: left;
+	text-align: none;
+	width: 79px;
+	margin-left: 10px;
+	font: italic 10px/25px verdana;
+	color: #000;
+	text-decoration: underline;
+	background: url(../images/sel_bask.png) no-repeat 0 50%;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text .arrow_left {
+  display: block;
+	float: right;
+	width: 79px;
+	margin-right: 10px;
+	font: italic 10px/25px verdana;
+	color: #000;
+	text-decoration: underline;
+	margin-bottom: 14px;
+	background: url(../images/arrow_left.png) no-repeat 100% 50%;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text .arrow_left:hover {
+  text-decoration: none;
+}
+.center_col_index .sel_inner .sel_block .sel_item .sel_text .bask:hover,
+.center_col_index_inner .sel_block .sel_item .sel_text .arrow_left:hover {
+  text-decoration: none;
+}
+
+.destination {
+  border-top: 1px solid #A70202;
+  padding: 13px 0 0 0;
+  margin: 27px 16px 35px 0;
+}
+.destination .destination_head {
+  font: 14px verdana;
+  color: black;
+  margin-bottom: 19px;
+}
+.destination .destination_head A {
+  color: black;
+  text-decoration: none;
+}
+.destination .destination_text {
+  font: 12px/16px tahoma;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+/*  index */
